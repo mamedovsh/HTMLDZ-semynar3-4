@@ -1,0 +1,526 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+.top {
+    padding-bottom: 84px;
+} */
+
+/* .home {
+    color: #F25822;
+font-family: Gilroy-SemiBold;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.grow {
+    color: #000;
+
+font-family: Gilroy-Bold;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.be {
+color: #F25822;
+font-family: Gilroy-Bold;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height:normal;
+} 
+
+.button {
+    color: #FFF;
+    font-family: Gilroy-SemiBold;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h1 {
+    color: #000;
+font-family: Gilroy-Bold;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.button{
+    width: 140px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #F25822;
+box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+
+.logo{
+    width: 160px;
+height: 50px;
+flex-shrink: 0;
+}
+
+.h2{
+    color: #000;
+font-family: Gilroy-Bold;
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.button2{
+    width: 140px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #F25822;
+box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+.content{
+    width: 1915px;
+height: 491px;
+flex-shrink: 0;
+background: #FFF;
+}
+.icon{
+    width: 70px;
+height: 70px;
+flex-shrink: 0;
+/* <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+  <rect width="70" height="70" rx="15" fill="#F25822" fill-opacity="0.25"/>
+  <path d="M23.7778 25.7778V45.2222H46V25.7778H23.7778ZM22.3889 23H47.3889C47.7572 23 48.1105 23.1463 48.371 23.4068C48.6314 23.6673 48.7778 24.0205 48.7778 24.3889V46.6111C48.7778 46.9795 48.6314 47.3327 48.371 47.5932C48.1105 47.8537 47.7572 48 47.3889 48H22.3889C22.0205 48 21.6673 47.8537 21.4068 47.5932C21.1463 47.3327 21 46.9795 21 46.6111V24.3889C21 24.0205 21.1463 23.6673 21.4068 23.4068C21.6673 23.1463 22.0205 23 22.3889 23ZM38.7681 32.4347L36.2778 29.9444H43.2222V36.8889L40.7319 34.3986L35.3653 39.7653L32.4194 36.8194L28.4903 40.7472L26.5264 38.7833L32.4194 32.8903L35.3653 35.8375L38.7681 32.4347Z" fill="#F25822"/>
+</svg> 
+}
+.text{
+    color: #000;
+font-family: Gilroy-Bold;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+} */
+
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	background: #FFFFFF;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.container {
+	width: 1146px;
+	margin: 0 auto;
+}
+
+/* --------------------------- */
+
+header {
+    margin-bottom: 82.71px;
+    margin-top: 40px;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.navigation a:hover {
+
+    color: #F25822;
+}
+
+.select_nav {
+	border: none;
+	position: relative;
+	outline: none;	
+    
+}
+
+main {
+    margin-bottom: 162px;
+    margin-top: 89px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__content__leftSide{
+    width: 522px;
+
+} 
+
+/* .img-right{
+} */
+
+.title {
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 17px;
+    width: 522px;
+}
+
+.text {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-bottom: 37px;
+    width: 466px;
+}
+
+.btns-list {
+    margin-top: 37px;
+}
+
+.btn{
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;   
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF; 
+}
+
+.btn1{
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    border: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.btn:hover {
+    background: #cc3d09;
+}
+
+.btn1:hover{   
+    background: #c0bdbd; 
+    color: #FFFFFF;
+}
+
+.logos{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* .banner_block {
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: space-between;
+} */
+
+.banner {
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.banner:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.banner h2 {
+    padding-top: 25px;
+    padding-bottom: 17px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.banner p {
+    padding-bottom: 25px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.banner button {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.second__page {
+    background-color: #FAFAFA;
+    padding-bottom: 100px;
+}
+
+.page_title {
+    display: flex;
+    padding-top: 92px;
+    padding-bottom: 54px;
+	align-items: center;
+	flex-direction: column;
+}
+
+.page_title h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    padding-bottom: 19px;
+}
+
+.page_title p {
+    width: 682px;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.banner__high {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.banner__high {
+    background-color: #FFFFFF;
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.banner__high:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.banner__high h2{
+    padding-top: 25px;
+    padding-bottom: 22px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.banner__high p {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 39px;
+}
+
+.banner__high button {
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+    padding: 15px;
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px; 
+    border: #F25822;   
+}
+
+.grow {
+    color: #000;
+
+font-family: Gilroy-Bold;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.be {
+color: #F25822;
+font-family: Gilroy-Bold;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height:normal;
+} 
+
+.hhh{
+/* width: 1200px;
+height: 900px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.hhh h2{
+color: #000;
+font-family: Gilroy-Bold;
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hhh p{
+width: 570px;
+height: 41px;
+flex-shrink: 0;
+color: #666;
+font-family: Gilroy-Regular;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+
+.hhh h3{
+color: #000;
+font-family: Gilroy-Bold;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+}
+
+.number__block{
+width: 1920px;
+height: 400px;
+flex-shrink: 0;
+}
+.number{
+width: 1170px;
+height: 200px;
+flex-shrink: 0;
+background: #FFF;
+}
+.speed block button{
+width: 140px;
+height: 50px;
+flex-shrink: 0;
+background-color: #F25822
+}
+.plus{
+width: 370px;
+height: 514px;
+flex-shrink: 0;
+background: #FFF;
+}
+.plus h2{
+color: #000;
+font-family: Gilroy-Medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.plus p{
+color: #666;
+text-align: center;
+font-family: Gilroy-Medium;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 250%; /* 40px */
+}
+.plus__button{
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 50px;
+background: rgba(242, 88, 34, 0.25);
+}
+.Beginer{
+    width: 370px;
+height: 574px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
+}
+
+.Advanced{
+    width: 370px;
+height: 514px;
+flex-shrink: 0;
+background: #FFF;
+}
+.how{
+width: 770px;
+height: 330px;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.10);
+}
+.how button{
+color: #F25822;
+font-family: Gilroy-Bold;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 16.5px */
+
+}
+.footer{
+width: 1920px;
+height: 488px;
+flex-shrink: 0;
+}
+.growb{
+    color: #000;
+font-family: Gilroy-Bold;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
