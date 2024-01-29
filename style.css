@@ -1,113 +1,4 @@
-/* * {
-    margin: 0;
-    padding: 0;
-}
-.top {
-    padding-bottom: 84px;
-} */
 
-/* .home {
-    color: #F25822;
-font-family: Gilroy-SemiBold;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
-}
-
-.grow {
-    color: #000;
-
-font-family: Gilroy-Bold;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.be {
-color: #F25822;
-font-family: Gilroy-Bold;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height:normal;
-} 
-
-.button {
-    color: #FFF;
-    font-family: Gilroy-SemiBold;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.h1 {
-    color: #000;
-font-family: Gilroy-Bold;
-font-size: 60px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.button{
-    width: 140px;
-height: 50px;
-flex-shrink: 0;
-border-radius: 50px;
-background: #F25822;
-box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-}
-
-
-.logo{
-    width: 160px;
-height: 50px;
-flex-shrink: 0;
-}
-
-.h2{
-    color: #000;
-font-family: Gilroy-Bold;
-font-size: 45px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.button2{
-    width: 140px;
-height: 50px;
-flex-shrink: 0;
-border-radius: 50px;
-background: #F25822;
-box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-}
-.content{
-    width: 1915px;
-height: 491px;
-flex-shrink: 0;
-background: #FFF;
-}
-.icon{
-    width: 70px;
-height: 70px;
-flex-shrink: 0;
-/* <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
-  <rect width="70" height="70" rx="15" fill="#F25822" fill-opacity="0.25"/>
-  <path d="M23.7778 25.7778V45.2222H46V25.7778H23.7778ZM22.3889 23H47.3889C47.7572 23 48.1105 23.1463 48.371 23.4068C48.6314 23.6673 48.7778 24.0205 48.7778 24.3889V46.6111C48.7778 46.9795 48.6314 47.3327 48.371 47.5932C48.1105 47.8537 47.7572 48 47.3889 48H22.3889C22.0205 48 21.6673 47.8537 21.4068 47.5932C21.1463 47.3327 21 46.9795 21 46.6111V24.3889C21 24.0205 21.1463 23.6673 21.4068 23.4068C21.6673 23.1463 22.0205 23 22.3889 23ZM38.7681 32.4347L36.2778 29.9444H43.2222V36.8889L40.7319 34.3986L35.3653 39.7653L32.4194 36.8194L28.4903 40.7472L26.5264 38.7833L32.4194 32.8903L35.3653 35.8375L38.7681 32.4347Z" fill="#F25822"/>
-</svg> 
-}
-.text{
-    color: #000;
-font-family: Gilroy-Bold;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-} */
 
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 
@@ -252,17 +143,14 @@ main {
     padding-bottom: 100px;
 }
 
-/* .banner_block {
+.banner_block {
     display: flex;
     padding-bottom: 100px;
     padding-top: 100px;
-    justify-content: space-between;
-} */
+    
+} 
 
-.banner {
-    padding: 30px;
-    padding-top: 40px;
-}
+
 
 .banner:hover {
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
@@ -298,14 +186,15 @@ main {
 .second__page {
     background-color: #FAFAFA;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .page_title {
     display: flex;
     padding-top: 92px;
     padding-bottom: 54px;
-	align-items: center;
-	flex-direction: column;
+	
+    
 }
 
 .page_title h1 {
@@ -438,13 +327,98 @@ line-height: 150%; /* 30px */
 width: 1920px;
 height: 400px;
 flex-shrink: 0;
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 375px;
+padding-right: 375px;
 }
-.number{
+/* .number{
 width: 1170px;
 height: 200px;
 flex-shrink: 0;
 background: #FFF;
+} */
+
+.number95{
+color: #666;
+font-family: Gilroy-Bold;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 105px */
+/* padding-top: 143x;
+padding-bottom: 152px;
+padding-left: 472px;
+padding-right: 1373px; */
 }
+.number95 h4{
+    color: #666;
+font-family: Gilroy-SemiBold;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+.number115{
+    color: #666;
+    font-family: Gilroy-Bold;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 105px */
+    /* padding-top: 143x;
+    padding-bottom: 152px;
+    padding-left: 472px;
+    padding-right: 1373px; */
+    }
+    .number115 h4{
+        color: #666;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    }
+    .number8{
+        color: #666;
+        font-family: Gilroy-Bold;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 105px */
+        /* padding-top: 143x;
+        padding-bottom: 152px;
+        padding-left: 472px;
+        padding-right: 1373px; */
+        }
+        .number8 h4{
+            color: #666;
+        font-family: Gilroy-SemiBold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 27px */
+        }
+        .number12{
+            color: #666;
+            font-family: Gilroy-Bold;
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 105px */
+            /* padding-top: 143x;
+            padding-bottom: 152px;
+            padding-left: 472px;
+            padding-right: 1373px; */
+            }
+            .number12 h4{
+                color: #666;
+            font-family: Gilroy-SemiBold;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 27px */
+            }
 .speed block button{
 width: 140px;
 height: 50px;
@@ -456,6 +430,10 @@ width: 370px;
 height: 514px;
 flex-shrink: 0;
 background: #FFF;
+padding-left: 375px;
+padding-top: 268px;
+padding-bottom: 130;
+padding-right: 1175px;
 }
 .plus h2{
 color: #000;
@@ -464,6 +442,10 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%;
+padding-top: 105;
+padding-left: 115;
+padding-right: 100;
+padding-bottom: 304;
 }
 .plus p{
 color: #666;
@@ -523,4 +505,17 @@ font-size: 28px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+.growb p{
+width: 270px;
+height: 120px;
+flex-shrink: 0;
+color: #666;
+font-family: Gilroy-Medium;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+width: 270;
+height: 120;
 }
